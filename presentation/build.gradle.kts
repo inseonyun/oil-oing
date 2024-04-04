@@ -1,9 +1,14 @@
+import java.util.Properties
+
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
     id("com.google.dagger.hilt.android")
     id("kotlin-kapt")
 }
+
+val localProperties = Properties()
+localProperties.load(project.rootProject.file("local.properties").inputStream())
 
 android {
     namespace = "oil.oing.nearby.presentation"
@@ -17,6 +22,8 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
+
+        manifestPlaceholders["naverMapNativeKey"] = localProperties.getProperty("NAVER_MAP_NATIVE_KEY")
     }
 
     buildTypes {
@@ -91,6 +98,11 @@ dependencies {
 
     // RecyclerView
     implementation("androidx.recyclerview:recyclerview:1.3.2")
+
+    // NaverMap
+    implementation("io.github.fornewid:naver-map-compose:1.4.1")
+    implementation("io.github.fornewid:naver-map-location:21.0.1")
+    implementation("com.google.android.gms:play-services-location:21.0.1")
 }
 
 kapt {
