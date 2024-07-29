@@ -23,7 +23,7 @@ import com.naver.maps.map.compose.MapProperties
 import com.naver.maps.map.compose.MapUiSettings
 import com.naver.maps.map.compose.NaverMap
 import dagger.hilt.android.AndroidEntryPoint
-import oil.oing.nearby.presentation.ui.theme.OilOingTheme
+import oil.oing.nearby.presentation.theme.OilOingTheme
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {

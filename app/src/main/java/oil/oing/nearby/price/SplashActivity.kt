@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
 import oil.oing.nearby.presentation.MainActivity
-import oil.oing.nearby.presentation.ui.theme.OilOingTheme
+import oil.oing.nearby.presentation.theme.OilOingTheme
 
 @SuppressLint("CustomSplashScreen")
 @AndroidEntryPoint
