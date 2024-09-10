@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- default colors-->
+    <color name="colorPrimary">#FF7A00</color>
+    <color name="colorPrimaryDark">#FF7A00</color>
+    <color name="colorAccent">#FF7A00</color>
+    <color name="white_00">#FFFFFF</color>
+    <color name="black_00">#000000</color>
+    <color name="orange_00">#FFA726</color>
+    <color name="yellow_00">#FFF500</color>
+
+    <!-- light colors-->
+    <color name="background">#F5F6F6</color>
+    <color name="background800">#D0C7C7</color>
+    <color name="background900">#FFFFFF</color>
+    <color name="white_01">#F5F6F6</color>
+    <color name="black_01">#272C33</color>
+    <color name="grey_01">#C5C5C5</color>
+    <color name="orange_01">#bfFF7A00</color>
+    <color name="orange_02">#33FF7A00</color>
+    <color name="yellow_01">#FEE500</color>
+</resources>

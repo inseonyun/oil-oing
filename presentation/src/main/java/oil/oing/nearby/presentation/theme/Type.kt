@@ -1,4 +1,4 @@
-package oil.oing.nearby.presentation.ui.theme
+package oil.oing.nearby.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
